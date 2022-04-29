@@ -46,11 +46,24 @@ James在论文中开创性地提出了双季节指数平滑模型，模型公式
 
 
 
+### 模型实现
+
+使用python编程实现。
+
+```python
+from holtwinter import DoubleSeasonalHoltWinter
+dh=DoubleSeasonalHoltWinter(train,test,random_state=1)
+
+dh.fit(candidates=10,max_iter=10) # return fit MSE
+dh.predict() # return predict MSE
+dh.plot_hat(t1,t2) # plot fit figure between t1 and t2
+```
+
+
+
 ### 结果
 
-**模型拟合** $ MSE=11.883597883597883 $ ；
-
-**模型预测** $ MSE=14.880837359098228 $ ；
+**模型拟合** $ MSE=11.883597883597883 $ ；**模型预测** $ MSE=14.880837359098228 $ ；
 
 **参数选择** 
 
