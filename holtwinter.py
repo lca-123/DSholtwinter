@@ -89,7 +89,7 @@ class DoubleSeasonalHoltWinter():
         """
         显示模型参数
         """
-        paramters='alpha='+str(self.alpha)+' ,gamma='+str(self.gamma)+' ,delta='+str(self.gamma)+' ,omega='+str(self.omega)+' ,phi='+str(self.phi)
+        paramters='alpha='+str(self.alpha)+' ,gamma='+str(self.gamma)+' ,delta='+str(self.delta)+' ,omega='+str(self.omega)+' ,phi='+str(self.phi)
         print(paramters)
 
     def _fit_(self):
