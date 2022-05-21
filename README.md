@@ -3,6 +3,7 @@
 ### 简介
 
 本文使用  *[James W. Taylor, (2008) A Comparison of Univariate Time Series Methods for Forecasting Intraday Arrivals at a Call Center. Management Science 54(2):253-265. ](https://doi.org/10.1287/mnsc.1070.0786)* 中提出的双季节指数平滑模型——DoubleSeasonalHoltWinter模型拟合来电时间序列，通过遗传算法(GA)进行参数估计，并使用参数估计后的模型进行预测，分析对比拟合结果。
+
 南京大学《应用时间序列》课程作业。
 
 
